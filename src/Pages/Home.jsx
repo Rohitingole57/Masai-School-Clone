@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./Home.css";
 import Swipercroll from "../Componants/SwiperScroll";
 import MarqueeComponent from "../Componants/MarqueeComponent";
-import Videos from "../Componants/Videos";
 import Footer from "../Componants/Footer";
 import Embla from "../Componants/Embla";
 import Elevate from "../Componants/Elevate";

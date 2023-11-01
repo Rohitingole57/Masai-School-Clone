@@ -27,7 +27,7 @@
     "react-spring": "^9.7.3",
     "react-spring-carousel": "^2.0.19",
     "react-swoop": "^1.5.1",
-    "swiper": "^11.0.1",
+    "swiper": "^11.0.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -55,6 +55,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^1.0.5",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.4"

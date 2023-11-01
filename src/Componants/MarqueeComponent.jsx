@@ -92,7 +92,7 @@ const MarqueeComponent = () => {
               {" "}
               <img
                 src="https://masai-website-images.s3.ap-south-1.amazonaws.com/swiggy_bc1b88842e.svg"
-                alt="Image 8"
+                alt=""
                 height="110px"
                 width="250px"
               />{" "}
@@ -211,7 +211,7 @@ const MarqueeComponent = () => {
               {" "}
               <img
                 src="https://masai-website-images.s3.ap-south-1.amazonaws.com/swiggy_bc1b88842e.svg"
-                alt="Image 8"
+                alt=""
                 height="110px"
                 width="250px"
               />{" "}
@@ -330,7 +330,7 @@ const MarqueeComponent = () => {
               {" "}
               <img
                 src="https://masai-website-images.s3.ap-south-1.amazonaws.com/swiggy_bc1b88842e.svg"
-                alt="Image 8"
+                alt=""
                 height="110px"
                 width="250px"
               />{" "}

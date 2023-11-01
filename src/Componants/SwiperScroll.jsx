@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-import Swiper from "swiper";
+import Swiper from "swiper/bundle"; // Import Swiper from the 'swiper/bundle' package
+import "swiper/swiper-bundle.css"; // Import the Swiper CSS
 import "./SwiperScroll.css";
 
 const Swipercroll = () => {
@@ -7,7 +8,6 @@ const Swipercroll = () => {
     const swiper = new Swiper(".swiper-container.two", {
       loop: true,
       slidesPerView: "auto",
-
       autoplay: {
         delay: 3000,
       },
