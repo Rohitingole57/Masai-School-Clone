@@ -1,0 +1,53 @@
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Ensure the container clips overflowing images */
+    position: relative; /* Establish a positioning context for the arrows */
+  }
+  
+  .image-container {
+    display: flex;
+    /* width: 100%; */
+    transition: transform 1s ease-in-out; /* Apply smooth transition for image sliding */
+  }
+  
+  .image-slide {
+    flex: 0 0 auto;
+    /* width: 100%; Ensure each image takes the full width */
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+   
+  .image-slide img{
+    width: 200px;
+    height: 200px;
+  }
+  .image-slide.active {
+    opacity: 1;
+  }
+  
+  .arrow {
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    outline: none;
+    position: absolute; /* Position arrows within the container */
+    transform: translateY(-50%); /* Vertically center the arrows */
+    z-index: 1; /* Ensure arrows are above images */
+  }
+  
+  .arrow.left {
+    left: 0; 
+  }
+  
+  .arrow.right {
+    right: 0; 
+  }
+  .arrow:hover {
+    background-color: #555;
+  }
+  

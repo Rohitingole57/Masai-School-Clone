@@ -1,0 +1,14 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #FFDDE7;
+}
+.header> p{
+    color: black;
+    font-size: 17px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+

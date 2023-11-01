@@ -1,0 +1,15 @@
+.apply_cont> button{
+    padding: 23px 15px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    background-color: #ED0331;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+}
+.apply_cont> button:hover{
+    background-color: #bc0026;
+
+}
